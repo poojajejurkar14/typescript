@@ -12,3 +12,20 @@ function test() {
     console.log(b3);
 }
 test();
+// object creation in TS
+var a1 = {
+    productId: 1,
+    productName: "Iphone",
+    productPrize: 50000
+};
+console.log(a1);
+// refernce datatype / non-primitive datatype
+//homogenious Array
+var arr1 = ["angular", "react", "nodejs"];
+console.log(arr1[1]);
+//hetrogenious Array
+var arr2 = ["angular", 22, "nodejs", true];
+console.log(arr2[3]);
+//push element in Array
+arr2.push(".netcore");
+console.log(arr2);
